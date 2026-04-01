@@ -14,6 +14,6 @@ public class ProblemThree {
                 .findFirst() // [4] Ambil elemen berikutnya
                 .orElse(0); // [5] default jika kosong
 
-        System.out.println("Elemen terbesar ke-3 adalah: " + ans);
+        System.out.println("The 3rd largest element is: " + ans);
     }
 }
